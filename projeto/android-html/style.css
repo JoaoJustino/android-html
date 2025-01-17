@@ -1,0 +1,270 @@
+@charset"UTF-8";
+
+
+@font-face {
+    font-family: 'Android';
+    src: url('android.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+  p 
+  
+  
+  {
+  
+    font-weight:200;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  nav  {  
+  
+  text-align: left;
+  
+  
+  }
+  
+  
+  
+  
+  
+  a  {
+  
+    padding-right: 20px;
+    color: whitesmoke;
+    text-align: center;
+  text-decoration: none;
+  
+  }
+  
+  a:hover {
+  
+  color: rgb(51, 126, 255);
+  text-shadow: black 2px 2px ;
+  
+  }
+  
+  h3#extra {
+  
+ 
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(31, 121, 238);
+  
+  }
+
+aside > h3  {
+
+  margin: -10px -10px 0px -10px;
+padding: 10px;
+border-radius: 10px 10px 0px 0px;
+
+
+
+
+}
+
+
+
+
+
+
+
+  
+  p#assunto 
+  
+  {
+  
+  color: whitesmoke;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  @font-face {
+    font-family: 'android';
+    src: url('android.otf') format('opentype');
+  }
+  
+  body {
+      text-align: center;
+      background-color:#2b5e85a5;
+      font-family: 'android', sans-serif;
+  }
+  
+  header 
+     
+     
+     {  
+  
+      background-image: linear-gradient(to top , #031A6B, #004385, #033860);
+      color: whitesmoke;
+      text-align: center;
+      margin: -22px -17px 0px -17px;
+  
+  }
+  
+  h1 {
+
+font-weight: normal;
+  text-align: center;
+  font-family: 'android', sans-serif;
+  text-shadow: black 4px 2px;
+  
+  }
+
+
+
+
+main {
+
+margin: auto;
+padding: 20px;
+background: rgba(43, 104, 247, 0.699);
+border-radius: 10px;
+min-width: 300px;
+max-width: 1000px;
+box-shadow: 0px 0px 10px black;
+
+
+}
+
+
+  
+  
+  h3  {
+    font-weight: normal;
+  border-radius: 10px;
+  text-align: center;
+  background-color: lightblue;
+  
+  
+  
+  }
+
+ 
+  mark#nome {
+  
+    
+  color: rgb(50, 110, 160);
+  
+  
+  }
+  
+  
+  
+  
+  
+  li {
+  
+  text-decoration: none;  
+  text-align: left;
+  color:cornflowerblue;
+  
+  }
+
+
+  li:hover {
+
+ color: rgb(51, 126, 255);
+  text-shadow: black 2px 2px ;
+
+
+  }
+  
+  footer 
+  
+  {  
+  
+  background-image: linear-gradient(to top , #031A6B, #004385, #033860);
+  color: whitesmoke;
+  text-align: center;
+  margin: -12px -17px 0px -22px;
+  
+  }
+  
+  
+  div#tabela  {
+  
+    border-bottom: 0px;
+    border-radius: 11px;
+  background-color: #033860;
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+
+ul   {
+
+  list-style-type: '\2714\00A0\00A0' ;
+font-size: 14px;
+size: 23px;
+border-style :dashed;
+border:#004385;
+columns: 2;
+
+}
+
+
+header > h1  {
+
+font-family: android;
+color: rgb(51, 126, 255);
+font-style:oblique;
+
+
+
+}
+
+img {
+
+width: 100%;
+}
+
+img.pequena {
+
+width: 50%;
+
+
+}
+  
+aside  {
+
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.383);
+padding: 10px;
+border-radius: 10px;
+
+
+}
+
+div.video {
+
+    margin: 0px -20px 30px -20px rgba(0, 0, 0, 0.349);
+    background-color: #033860;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+div.video > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
